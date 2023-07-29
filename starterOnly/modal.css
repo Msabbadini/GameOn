@@ -157,7 +157,7 @@ main {
   font-size: 16px;
 }
 
-.bground {
+.bground, .confirm {
   display: none;
   position: fixed;
   z-index: 1;
@@ -167,6 +167,10 @@ main {
   width: 100%;
   overflow: auto;
   background-color: rgba(26, 39, 156, 0.4);
+}
+
+.confirm{
+    display:block;
 }
 
 .content {
@@ -527,3 +531,12 @@ footer {
   }
 }
 
+.msg-error {
+  color : #b00;
+  font-size: medium;
+  margin-top: 5px;
+}
+
+.hidden {
+  display : none;
+}
